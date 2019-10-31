@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -10,13 +10,11 @@ body {
 /* HEADER STYLE START */
 
 .header {
-    position: fixed;
     margin: 0;
     top: 0;
     left: 0;
     right: 0;
     padding: 10px 100px;
-    width: 100%;
     height: 145px;
     background-color: #0d2240;
     display: flex;
@@ -40,7 +38,7 @@ body {
 /* MENU STYLE START */
 
 .menu {   
-    font-family: 'Ubuntu', sans-serif;
+
     font-size: 14px;
     padding-top: 100px;
     width: 700px;
@@ -83,8 +81,6 @@ body {
 .rightdiv {
     width: 520px;
     float: left;
-    border: 3px solid #dc0a13;
-    
    /*     border: 3px solid #dc0a13; */
      
 }
@@ -97,7 +93,7 @@ body {
 }
 
 .addresstext {
-    font-family: 'Ubuntu', sans-serif;
+
     color: white;
     font-size: 14px;
     line-height: 0.5;
@@ -120,7 +116,7 @@ body {
 
 .button a {
     padding: 6px 22px;
-    font-family: 'Ubuntu', sans-serif;
+
     font-size: 20px;
     color: #fff;
     text-align: center;
