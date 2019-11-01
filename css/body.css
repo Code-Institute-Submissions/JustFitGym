@@ -1,16 +1,5 @@
-.main {
+body {
     margin: 0;
     padding: 0;
-    height: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
-
-
-.section {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-

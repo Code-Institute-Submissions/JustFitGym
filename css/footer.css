@@ -1,11 +1,13 @@
 .footer {
     background-color: #0d2240;
-    text-align: left;
+    text-align: center;
+    font-size: 13px; 
 }
 
 .divfooter {
     text-align: center;
     display: inline-block;
+
 }
 
 .footerlinks ul {
@@ -15,7 +17,7 @@
 .footerlinks li {
     color: #becdf8;
     padding-right: 15px;
-    font-size: 14px;
+    font-size: 13px;
     display: block;
     line-height: 3.0;
     font-weight: bold;
@@ -33,15 +35,15 @@
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 
-.pfooter {
-    background-color: #0d2240;
+.daysfooter {
     text-align: left;
     color: #ffffff;
     display: inline-block;
     width: 400px;
-    padding-left: 180px;
+
 }
 
-.daycl {
+.daycolor {
     color: #becdf8;
+    font-size: 13px;
 }

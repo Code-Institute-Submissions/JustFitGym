@@ -1,140 +1,95 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
 
-
-
-
-/* HEADER STYLE START */
 
 .header {
     margin: 0;
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px 100px;
     height: 145px;
+    width: 100%;
     background-color: #0d2240;
-    display: flex;
-    flex-wrap: nowrap;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.divlogo {
+    display: inline-block;
+}
+
+
+
+/* DIV and MENU STYLE START */
+
+.divmenu {
+    display: inline-block;
+    text-align: left;
+    width: 580px;
+    padding-top: 30px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* border: 3px solid #dc0a13; */
 
 }
 
 
-/* LOGO STYLE START */
-
-.logodiv {
-    width: 280px;
-    float: left;
-
-}
-
-/* LOGO STYLE END */
-
-
-
-/* MENU STYLE START */
-
-.menu {   
-
-    font-size: 14px;
-    padding-top: 100px;
-    width: 700px;
-    background-color: #0d2240;
-    float: left;
-}
-
-.menu ul {
+nav ul {
     list-style: none;
     background-color: #0d2240;
-    text-align: left;
+    font-size: 16px;
     margin: 0;
 }
 
-.menu li {
-    padding-right: 15px;
-    font-size: 1.2em;
+nav li {
+    margin-right: 4.5%;
     display: inline-block;
-    margin-left: 2.5%;
 }
 
-.menu a {
+nav a {
     text-decoration: none;
     color: #ffffff;
-    display: block;
 }
 
-.menu a:hover {
+nav a:hover {
     text-decoration: none;
     color: #E0242A;
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 
-/* MENU STYLE END */
+/* DIV and MENU STYLE END */
 
 
 
 
+/* DIV and BUTTON STYLE START */
 
-.rightdiv {
-    width: 520px;
-    float: left;
-   /*     border: 3px solid #dc0a13; */
-     
-}
-.divicon {
-    width:100%;
-}
+.divbutton {
 
-.iconposition {
-    float: left;
+    display: inline-block;
+    padding-top: 30px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.addresstext {
+.divbutton a {
 
-    color: white;
-    font-size: 14px;
-    line-height: 0.5;
-}
-
-
-
-
-
-
-/* BUTTON STYLE START */
-
-.button {
-    width: 100%;
-    text-align: right;
-    padding-top: 40px;
-   /*     border: 3px solid #dc0a13; */
-   
-}
-
-.button a {
     padding: 6px 22px;
-
-    font-size: 20px;
+    font-size: 14px;
     color: #fff;
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-decoration: none;
     background-color: #dc0a13;
     border-radius: 16px;
+
 }
 
-.button a:hover {
+.divbutton a:hover {
     text-decoration: none;
 }
 
-/* BUTTON STYLE END */
-
-
-/* HEADER STYLE END */
-
-
-
-
+/* DIV and BUTTON STYLE END */
