@@ -7,7 +7,6 @@
 .divfooter {
     text-align: center;
     display: inline-block;
-
 }
 
 .footerlinks ul {
@@ -16,7 +15,7 @@
 
 .footerlinks li {
     color: #becdf8;
-    padding-right: 15px;
+    padding-right: 25px;
     font-size: 13px;
     display: block;
     line-height: 3.0;
@@ -39,7 +38,6 @@
     text-align: left;
     color: #ffffff;
     display: inline-block;
-    width: 400px;
 
 }
 
@@ -47,3 +45,67 @@
     color: #becdf8;
     font-size: 13px;
 }
+
+.menusmall {
+    display: none;
+}
+
+
+
+
+
+/* Responsive Design: DESKTOP FIRST approach */
+
+
+
+/* @media (max-width: 769px) { */
+
+@media (max-width: 813px) {
+    .fcontainer {
+        text-align: center;
+    }
+
+    .footerlinks li {
+        font-size: 11px;
+    }
+
+    .daysfooter {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .divfooter {
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+
+/* @media (max-width: 415px) { */
+    @media (max-width: 590px) {
+    .divfooter {
+        display: none;
+
+    }
+
+    .menusmall {
+        display: block;
+        height: 100px;
+
+    }
+    .parsm {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 1px;
+
+    }
+}
+
+
+
+/*
+
+menusmall
+divsm
+
+*/
