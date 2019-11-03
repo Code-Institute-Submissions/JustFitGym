@@ -8,10 +8,16 @@
 External Technologies Used:
 
 - Editor: Virtual Studio Code for iMac
+
 - Adobe Illustrator: I recreated the Logo since the original has a bad quality: (original is here: http://justfitireland.com/wp-content/uploads/2018/02/JustFit-1.png)
+
 - Google Font: <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
 - Google Maps:  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.3079626594113!2d-8.477173636103595!3d51.906529454441745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844916b2ed0a9d9%3A0x4535ee8f7d933359!2sJust%20Fit%20Gym%20Blackpool!5e0!3m2!1sen!2sie!4v1572637987068!5m2!1sen!2sie" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
- 
+
+- Reference: https://www.w3schools.com/
+
+
 
 
 

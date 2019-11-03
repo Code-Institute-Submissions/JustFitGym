@@ -3,3 +3,122 @@ body {
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+h2 {
+    color: #0d2240;
+}
+
+.contactform {
+    line-height: 20px;
+  }
+
+.cgdetails {
+    margin: 8px 0;
+    padding-top: 50px; ;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 0;
+    color: #666;
+}
+
+.cgdetails a {
+    color: #0055a6;
+}
+
+
+.rightbox {
+    padding-top: 50px; ;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 0;
+
+}
+
+
+.rightbox input {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 8px 0;
+  }
+
+  .rightbox textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 150px;
+  }
+
+
+
+  input[type=submit] {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0d2240;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #235499;
+  }
+
+  @media (max-width: 570px) {
+    .rightbox input { 
+        padding: 10px;
+        width: 300px;
+    }
+
+    .rightbox {
+        padding: 10px;
+    }
+
+    .rightbox textarea { 
+        padding: 10px;
+        width: 300px;
+    }
+
+    .cgdetails {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+  }
+
+
+  @media (max-width: 325px) {
+    .rightbox input { 
+        padding: 10px;
+        width: 250px;
+    }
+
+    .rightbox {
+        padding: 10px;
+    }
+
+    .rightbox textarea { 
+        padding: 10px;
+        width: 250px;
+    }
+
+    .cgdetails {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+  }
