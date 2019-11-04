@@ -4,39 +4,26 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
 h2 {
     color: #0d2240;
 }
 
-.contactform {
-    line-height: 20px;
-  }
-
-.cgdetails {
+.contactus {
     margin: 8px 0;
-    padding-top: 50px; ;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 0;
     color: #666;
+    line-height: 20px;
 }
 
-.cgdetails a {
+.contactus a {
     color: #0055a6;
 }
 
 
-.rightbox {
-    padding-top: 50px; ;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 0;
-
-}
-
-
-.rightbox input {
+.contactform input {
     padding: 12px 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -45,7 +32,7 @@ h2 {
     margin: 8px 0;
   }
 
-  .rightbox textarea {
+  .contactform textarea {
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -55,9 +42,7 @@ h2 {
     height: 150px;
   }
 
-
-
-  input[type=submit] {
+  .contactform input[type=submit] {
     font-size: 16px;
     color: #ffffff;
     padding: 14px 20px;
@@ -72,22 +57,24 @@ h2 {
     background-color: #235499;
   }
 
+
+
   @media (max-width: 570px) {
-    .rightbox input { 
+    .contactus input { 
         padding: 10px;
         width: 300px;
     }
 
-    .rightbox {
+    .contactus {
         padding: 10px;
     }
 
-    .rightbox textarea { 
+    .contactus textarea { 
         padding: 10px;
         width: 300px;
     }
 
-    .cgdetails {
+    .contactus {
         padding: 10px;
     }
 
@@ -99,21 +86,21 @@ h2 {
 
 
   @media (max-width: 325px) {
-    .rightbox input { 
+    .contactus input { 
         padding: 10px;
         width: 250px;
     }
 
-    .rightbox {
+    .contactus {
         padding: 10px;
     }
 
-    .rightbox textarea { 
+    .contactus textarea { 
         padding: 10px;
         width: 250px;
     }
 
-    .cgdetails {
+    .contactus {
         padding: 10px;
     }
 
