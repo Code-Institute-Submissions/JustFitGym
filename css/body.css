@@ -8,15 +8,24 @@ h2 {
     color: #0d2240;
 }
 
+
+
+/*********** CONTACTUS PAGE CLASSES START ***********/
+
+.parent {
+    margin-bottom: 140px;
+    display: flex;
+}
+
 .contactus {
     margin: 8px 0;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 0;
     color: #666;
     line-height: 20px;
-}
+ }
 
 .contactus a {
     color: #0055a6;
@@ -53,13 +62,81 @@ h2 {
     background-color: #0d2240;
   }
   
-  input[type=submit]:hover {
+  .contactform input[type=submit]:hover {
     background-color: #235499;
   }
 
+/*********** CONTACTUS PAGE CLASSES END ***********/
 
 
-  @media (max-width: 570px) {
+
+
+
+  /*********** CONTACTUS PAGE MEDIA QUERY START ***********/
+
+  @media (max-width: 1025px) {
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .contactus {
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .contactus input { 
+        padding: 10px;
+        width: 300px;
+    }
+
+    .contactus textarea { 
+        padding: 10px;
+        width: 300px;
+    }
+  }
+
+  @media (max-width: 668px) {
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .contactus {
+        padding: 10px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
+
+    .contactus input { 
+        padding: 10px;
+        width: 300px;
+    }
+
+    .contactus textarea { 
+        padding: 10px;
+        width: 300px;
+    }
+
+    .contactform {
+        font-size: 14px;
+    }
+  }
+
+
+  @media (max-width: 640px) {
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .parent {
+        display: block;
+    }
+
     .contactus input { 
         padding: 10px;
         width: 300px;
@@ -76,16 +153,21 @@ h2 {
 
     .contactus {
         padding: 10px;
-    }
-
-    main {
-        padding: 10px;
-        text-align: left;
     }
   }
 
 
   @media (max-width: 325px) {
+
+    .parent {
+        display: block;
+    }
+
+    main {
+        padding: 10px;
+        text-align: left;
+    }
+
     .contactus input { 
         padding: 10px;
         width: 250px;
@@ -104,8 +186,9 @@ h2 {
         padding: 10px;
     }
 
-    main {
-        padding: 10px;
-        text-align: left;
+    .contactform{
+        margin-top: 1px;
     }
   }
+
+    /*********** CONTACTUS PAGE MEDIA QUERY END ***********/
