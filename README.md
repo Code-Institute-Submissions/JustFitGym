@@ -17,7 +17,8 @@ External Technologies Used:
 
 - Reference: https://www.w3schools.com/
 
-
+- External resources:
+    1. https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
 
 
 
@@ -28,6 +29,11 @@ CSS: I created three different files per each section, to simplify the style org
 - header.css
 - body.css
 - footer.css
+
+
+
+@MEDIA QUERY: 
+- Responsive Design: DESKTOP FIRST approach
 
 
 
