@@ -8,35 +8,22 @@
     width: 100%;
     background-color: #0d2240;
     color: #ffffff;
-    text-align: center;
+    opacity: 0.8;
 }
 
 .container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.divlogo {
-    display: inline-block;
-}
-
-.divmobile {
-    display: none;
-}
-
-/* DIV and MENU STYLE START */
 
 .divmenu {
-    display: inline-block;
     text-align: left;
     width: 580px;
     padding-top: 30px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    /* border: 3px solid #dc0a13; */
 }
-
 
 nav ul {
     list-style: none;
@@ -61,10 +48,64 @@ nav a:hover {
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 
-/* DIV and MENU STYLE END */
+
+.mobile-container {
+    display: none;
+}
 
 
 
+/************** BURGER MENU START **************/ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+
+    color: white;
+  }
+
+/************** BURGER MENU END **************/
 
 
 
@@ -99,26 +140,29 @@ nav a:hover {
         width: 0;
     }
 
-    .divmobile {
-        display: block;
-    }
-
-    .header {
-        position: fixed;
+    .mobile-container {
+        display: flex;
+        position: absolute;
+        right: 0px;
+        top: 0px;
     }
 }
 
 @media (max-width: 415px) {
-    .divmenu { 
-        visibility: hidden;
-        width: 0;
+
+    .divlogo img {
+        width: 160px;
     }
 
-.divmobile {
-    display: block;
-}
+    .divmenu { 
+        visibility: hidden;
 
-    .header {
-        position: fixed;
+    }
+
+    .mobile-container {
+        display: flex;
+        position: absolute;
+        right: 3px;
+        top: 0px;
     }
 }
