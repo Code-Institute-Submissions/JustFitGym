@@ -76,7 +76,7 @@ h2 {
 
   @media (max-width: 1025px) {
 
-    main {
+    .cpmain {
         padding: 10px;
         text-align: left;
     }
@@ -99,7 +99,7 @@ h2 {
 
   @media (max-width: 668px) {
 
-    main {
+    .cpmain {
         padding: 10px;
         text-align: left;
     }
@@ -128,7 +128,7 @@ h2 {
 
   @media (max-width: 640px) {
 
-    main {
+    .cpmain {
         padding: 10px;
         text-align: left;
     }
@@ -163,7 +163,7 @@ h2 {
         display: block;
     }
 
-    main {
+    .cpmain {
         padding: 10px;
         text-align: left;
     }
@@ -192,3 +192,404 @@ h2 {
   }
 
     /*********** CONTACTUS PAGE MEDIA QUERY END ***********/
+
+
+
+
+
+
+
+    /*********** INDEX PAGE CLASSES START ***********/
+
+    .headindex img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: -145px;
+        z-index: -1;
+
+    }
+
+
+    .bar1 {
+        padding: 30px 0;
+        width: 600px;
+        position: absolute;
+        top: 400px;
+        right: 0px;
+        background-color: #0d2240;
+        opacity: 0.7;
+        filter: alpha(opacity=70); 
+        text-align: center;
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .bar2 {
+        margin-top: 20px;
+        padding: 30px 0;
+        width: 500px;
+        position: absolute;
+        top: 500px;
+        right: 0px;
+        background-color: #0d2240;
+        opacity: 0.7;
+        filter: alpha(opacity=70); 
+        text-align: center;
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    section h2 {
+        text-align: center;
+        color: #E0242A;
+        margin: 0;
+        position: relative;
+        top: -110px;
+    }
+
+    section h2 span {
+        color: #0d2240;
+    }
+
+    .divwju {
+        position: relative;
+        top: -135px;
+        background-image: url('../images/trainers.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;  
+        background-color: #0d2240;
+        height: 1100px;
+        text-align: center;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6); /* https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+    }
+
+    .ptitle {
+        padding-top: 80px;
+        color: rgb(241, 241, 241);
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .btitle {
+        text-align: justify;
+        line-height: 40px;
+        padding: 60px 260px;
+        color: rgb(241, 241, 241);
+        font-size: 30px;
+    }
+
+    .spanred {
+        color: #E0242A;
+        font-size: 30px;
+    }
+
+    .btext {
+        text-align: justify;
+        line-height: 5px;
+        text-align: center;
+        color: rgb(241, 241, 241);
+        font-size: 30px;
+    }
+
+
+    /* PERSONAL TRAINER AREA */
+
+    .ptparent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -95px;
+    }
+
+    .articlept {
+        width: 40%;
+        text-align: center;
+        font-size: 24px;
+        color: #666;
+        line-height: 40px;
+    }
+    
+    .asideptrain {
+        width: 40%;
+
+    }
+
+
+    @media (max-width: 1367px) {
+
+        .ptparent {
+            width: 100%;
+            display: block;
+            position: relative;
+            top: -85px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .articlept {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: #666;
+            line-height: 40px;
+        }        
+        
+        .asideptrain {
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 1025px) {
+
+        .ptparent {
+            width: 100%;
+            display: block;
+            position: relative;
+            top: -85px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .articlept {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: #666;
+            line-height: 40px;
+        }        
+        
+        .asideptrain {
+            display: none;
+        }
+
+
+        .divwju {
+            position: relative;
+            top: -135px;
+            width: 100%;
+            background-image: url('../images/trainers.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;  
+            background-color: #0d2240;
+            height: 1100px;
+            text-align: center;
+            box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6); /* https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+        }
+    
+        .ptitle {
+            padding-top: 80px;
+            color: rgb(241, 241, 241);
+            font-size: 60px;
+            font-weight: bolder;
+        }
+    
+        .btitle {
+            text-align: justify;
+            line-height: 40px;
+            padding: 40px 170px;
+            color: rgb(241, 241, 241);
+            font-size: 30px;
+        }
+    }
+
+
+
+    @media (max-width: 769px) {
+        .headindex img {
+            width: 100%;
+            height: auto;
+            position: static;
+        }
+
+        .header {
+            opacity: 1;
+        }
+
+        .bar1 {
+
+            width: 300px;
+            position: absolute;
+            top: 200px;
+            color: #ffffff;
+            font-size: 18px;
+        }
+    
+        .bar2 {
+            width: 300px;
+            position: absolute;
+            top: 300px;
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        section h2 {
+            position: static;
+            padding-top: 50px;
+            font-size: 20px;
+
+
+        }
+
+
+        .ptparent {
+            width: 100%;
+            display: block;
+            position: static;
+
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .articlept {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: #666;
+            line-height: 40px;
+        }        
+        
+        .asideptrain {
+            display: none;
+        }
+
+
+        .divwju {
+            position: static;
+
+            width: 100%;
+            background-image: none;
+            background-size: none;
+            background-repeat: none;
+            background-position: none;  
+            background-color: #ffffff;
+            height: 1300px;
+            text-align: center;
+            box-shadow: none;
+        }
+    
+        .ptitle {
+            padding-top: 80px;
+            color: #0d2240;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+    
+        .btitle {
+            text-align: justify;
+            line-height: 40px;
+            padding: 40px 170px;
+            color: #666;
+            font-size: 30px;
+        }
+
+        .btext {
+            color: #666;
+        }
+    }
+
+
+
+    @media (max-width: 415px) {
+        .headindex img {
+            width: 100%;
+            height: auto;
+            position: static;
+        }
+
+        .header {
+            opacity: 1;
+        }
+
+        .bar1 {
+
+            width: 300px;
+            position: absolute;
+            top: 200px;
+            color: #ffffff;
+            font-size: 18px;
+        }
+    
+        .bar2 {
+            width: 300px;
+            position: absolute;
+            top: 300px;
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        section h2 {
+            position: static;
+            padding-top: 50px;
+            font-size: 20px;
+
+
+        }
+
+
+        .ptparent {
+            width: 100%;
+            display: block;
+            position: static;
+
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .articlept {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: #666;
+            line-height: 40px;
+        }        
+        
+        .asideptrain {
+            display: none;
+        }
+
+
+        .divwju {
+            position: static;
+
+            width: 100%;
+            background-image: none;
+            background-size: none;
+            background-repeat: none;
+            background-position: none;  
+            background-color: #ffffff;
+            height: 1300px;
+            text-align: center;
+            box-shadow: none;
+        }
+    
+        .ptitle {
+            padding-top: 80px;
+            color: #0d2240;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+    
+        .btitle {
+            text-align: justify;
+            line-height: 40px;
+            padding: 40px 170px;
+            color: #666;
+            font-size: 30px;
+        }
+
+        .btext {
+            color: #666;
+        }
+    }

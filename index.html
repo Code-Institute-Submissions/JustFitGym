@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/body.css" type="text/css" />
     <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>JustFit Gym</title>
 </head>
 
@@ -41,60 +42,94 @@
             </div>
             <!-- DESKTOP MENU END -->
        
+
+
+
+
+        <!-- MOBILE (BURGER) MENU START -->
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Logo</a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+            <!-- MOBILE (BURGER) MENU END -->      
+
         </div> <!-- END CONTAINER -->
-
-
-
-        <!-- MOBILE MENU START -->
-
-        <div class="divmobile">
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="thegym.html">THE GYM</a></li>
-                    <li><a href="contactus.html">CONTACT US</a></li>
-                </ul>
-            </nav>
-        </div>
-
-            <!-- MOBILE MENU END -->      
-
-
 
       </header>
 
 <!--   ********** HEADER END ********** -->
 
-
-
   <main>
     <article>
-      <header>
-        <h2>Article heading</h2>
-      </header>
-      <section>
-        <h3> Section heading</h3>
-        <p>Stuff in here</p>
+      <section class="headindex">
+        <img src="images/home.jpeg" alt="GYM HEADER"></div>
+
+        <div class="signalcont">
+            <div class="bar1">ENJOY A FREE WORK OUT ON US!</div>
+            <div class="bar2">SET YOUR GOAL</div>
+        </div>
       </section>
       
-      <section>
-        <h3> Section heading</h3>
-        <p>Other stuff in here</p>
+      <section class="whyjoinus">
+        <h2><span>NO MORE EXCUSES.</span> FIND YOUR BALANCE NOW. SCHEDULE A FREE WORK OUT.</h2>
+        <div class="divwju">
+          <p class="ptitle">WHY JOIN US?</p>
+          <p class="btitle">Join up today from € 30 per month! Fully equipped commercial gym with free underground parking on the door step of cork city centre! We open at 5:30am cater for all, personal training available in conjunction with top nutritional advice! Our nutritional support has transformed 100s of clients and brought over 60 athletes to top placings including a number of pro athletes! Lots of packages available to suit your goals! Book a slot for a <span class="spanred">FREE WORK OUT.</span></p>
+          <p class="spanred">Services:</p>
+          <p class="btext">Free Weight Equipment</p>
+          <p class="btext">Machine Equipment</p>
+          <p class="btext">Tailored Diet</p>
+          <p class="btext">Training Program</p>
+          <p class="btext">24:7 Nutrition Support</p>
+          <p class="btext">Free Parking</p>
+          <p class="btext">Free Wifi</p>
+          <p class="btext">Lounge Area</p>
+        </div>
       </section>
       
     </article>
 
-        <aside>
-          <section>
-            <h4> Section heading</h4>
-             <p>Aside stuff in here</p>
-          </section>
-            
-          <section>
-            <h4> Section heading</h4>
-             <p>More aside stuff in here</p>
-          </section>
-        </aside>
+    <div class="ptparent">
+        <article class="articlept">
+            <section>
+              <p class="spanred">Peronal Trainer</p>
+              <p>Personal Training packages designed specifically for your needs and abilities. Whether it’s losing weight, gaining muscle, increasing fitness, dealing with back and shoulder pain – we give personal attention from very experienced professionals to help you reach and surpass your goals.</p>
+            </section>
+        </article>
+        <aside class="asideptrain">
+            <section>
+                <img src="images/ptrainer.png" alt="GYM HEADER" width="600" height="auto"></div>
+             </section>
+         </aside>
+     </div>
+     <div class="signup"></div>
    </main>
 
 
