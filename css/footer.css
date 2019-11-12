@@ -25,7 +25,6 @@
 .footerlinks a {
     text-decoration: none;
     color: #ffffff;
-
 }
 
 .footerlinks a:hover {
@@ -38,7 +37,6 @@
     text-align: left;
     color: #ffffff;
     display: inline-block;
-
 }
 
 .daycolor {
@@ -52,13 +50,7 @@
 
 
 
-
-
 /* Responsive Design: DESKTOP FIRST approach */
-
-
-
-/* @media (max-width: 769px) { */
 
 @media (max-width: 813px) {
     .fcontainer {
@@ -80,32 +72,19 @@
     }
 }
 
-
-/* @media (max-width: 415px) { */
     @media (max-width: 590px) {
     .divfooter {
         display: none;
-
     }
 
     .menusmall {
         display: block;
         height: 100px;
-
     }
+
     .parsm {
         color: #ffffff;
         font-size: 12px;
         padding: 1px;
-
     }
 }
-
-
-
-/*
-
-menusmall
-divsm
-
-*/

@@ -10,6 +10,7 @@ h2 {
 
 
 
+
 /*********** CONTACTUS PAGE CLASSES START ***********/
 
 .parent {
@@ -207,7 +208,6 @@ h2 {
         position: relative;
         top: -145px;
         z-index: -1;
-
     }
 
 
@@ -367,11 +367,11 @@ h2 {
         width: 40%;
 
     }
+    /*********** INDEX PAGE END ***********/
 
 
 
-
-    /* STARTING MEDIA QUERY: RESPONSIVE DESIGN */
+    /*********** INDEX PAGE MEDIA QUERY CLASSES START ***********/
 
 
     @media (max-width: 1740px) {
@@ -634,7 +634,6 @@ h2 {
 
         .divwju {
             position: static;
-
             width: 100%;
             background-image: none;
             background-size: none;
@@ -745,8 +744,6 @@ h2 {
     }
 
 
-
-
     @media (max-width: 500px) {
         .headindex img {
             width: 100%;
@@ -826,97 +823,14 @@ h2 {
     }
 
 
-/*
-    @media (max-width: 324px) {
-
-
-        .headindex img {
-            width: 100%;
-            height: auto;
-            position: static;
-        }
-
-        .header {
-            opacity: 1;
-            width: 100%;
-        }
-
-        .signalcont {
-            display: none;
-        }
-
-
-        section h2 {
-            position: static;
-            padding-top: 50px;
-            font-size: 20px;
-        }
-
-        .divwju {
-            position: static;
-            width: 100%;
-            background-image: none;
-            background-size: none;
-            background-repeat: none;
-            background-position: none;  
-            background-color: #ffffff;
-            height: auto;
-            text-align: center;
-            box-shadow: none;
-        }
-    
-        .ptitle {
-            padding-top: 10px;
-            color: #0d2240;
-            font-size: 30px;
-            font-weight: bolder;
-        }
-    
-        .btitle {
-            line-height: 40px;
-            padding: 0 30px;
-            color: #666;
-            font-size: 20px;
-        }
-
-        .btext {
-            color: #666;
-            font-size: 20px;
-        }
-
-        .ptparent {
-            margin-top: 80px;
-            width: 100%;
-            display: block;
-            position: static;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .articlept {
-            width: 100%;
-            text-align: center;
-            font-size: 24px;
-            color: #666;
-            line-height: 40px;
-        }        
-        
-        .asideptrain {
-            display: none;
-        }
-    }*/
+    /*********** INDEX PAGE MEDIA QUERY CLASSES END ***********/
 
 
 
 
 
 
-
-
-
-
-    /******************* START THE GYM PAGE STYLE *************************/
+    /*********** THEGYM PAGE CLASSES START ***********/
 
     .headindexTG {
         width: 100%;
@@ -968,7 +882,6 @@ h2 {
         position: relative;
         top: -140px;
         text-align: center;
-
     }
 
     .adbox {
@@ -1005,6 +918,7 @@ h2 {
         text-align: left;
     }
 
+/*********** THEGYM PAGE CLASSES END ***********/
 
 
 
@@ -1012,12 +926,9 @@ h2 {
 
 
 
-/************ THEGYM.HTML MEDIA QUERY **************/
+/************ THEGYM.HTML PAGE MEDIA QUERY START **************/
 
 @media (max-width: 824px) {
-
-    /* CHECK IPHONE 5 */
-    
     .membertitle {
         color: #ffffff;
         font-size: 32px;
@@ -1025,7 +936,6 @@ h2 {
     }  
 
     .buttonmember {
-
         margin-top: 30px;
     }
 
@@ -1036,22 +946,14 @@ h2 {
     .adcont {
         width: 80%;
     }
-
 }
 
 
-
     @media (max-width: 641px) {
-
-        /* CHECK IPHONE 5 */
-
-
-
         .membertitle {
             color: #ffffff;
             font-size: 24px;
             font-weight: bolder;
-
         }  
 
         .buttonmember {
@@ -1095,3 +997,4 @@ h2 {
         }
     }
 
+/************ THEGYM.HTML PAGE MEDIA QUERY END **************/

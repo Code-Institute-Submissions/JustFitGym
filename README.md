@@ -3,6 +3,22 @@
 # User Centric Frontend Development Milestone Project
 
 
+WEBSITE: This is a three pages example divided in:
+    Home: Main page where you can see an example of homepage, many links are not working since is only an example of my first website
+    The Gym: Page where you can see membership costs. Being an example, I didn't add links on each membership to redirect a customer to a book and payment webpage
+    Contact Us: Simple page to contact the gym. The form is not working since I'm not using any backend code.
+
+
+CSS: I created three different files per each section, to simplify the style organisation. Since this is my first project, I found more convenient to split the styles in three files rather than having a main.css for everything.
+
+- header.css
+- body.css
+- footer.css
+
+
+@MEDIA QUERY: 
+- Responsive Design: DESKTOP FIRST approach
+
 
 
 
@@ -28,21 +44,19 @@ External Technologies Used:
 
 
 
-Organisation:
-
-CSS: I created three different files per each section, to simplify the style organisation. Since this is my first project, I found more convenient to split the styles in three files rather than having a main.css for everything.
-
-- header.css
-- body.css
-- footer.css
-
-
-
-@MEDIA QUERY: 
-- Responsive Design: DESKTOP FIRST approach
-
-
-
 - Personal Notes:
 In this project, I preferred to avoid Bootstrap as long as possible since it's the first project. I wanted to learn how to use HTML and CSS getting any help with Bootstrap. Probably I will make many mistakes in my code because of this choise, but these mistakes will consolidate my knowledge. 
 When I master HTML and CSS, then Bootstrap will be more than welcome.
+
+
+
+
+
+ _   _                 _                      
+| | | |               | |                     
+| |_| |__   __ _ _ __ | | ___   _  ___  _   _ 
+| __| '_ \ / _` | '_ \| |/ / | | |/ _ \| | | |
+| |_| | | | (_| | | | |   <| |_| | (_) | |_| |
+ \__|_| |_|\__,_|_| |_|_|\_\\__, |\___/ \__,_|
+                             __/ |            
+                            |___/             
