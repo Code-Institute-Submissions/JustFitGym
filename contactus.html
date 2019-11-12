@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/body.css" type="text/css" />
     <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>JustFit Gym</title>
 </head>
 
@@ -40,7 +41,41 @@
                 </nav>
             </div>
             <!-- DESKTOP MENU END -->
-       
+
+
+            
+<!-- MOBILE (BURGER) MENU START -->
+
+<div class="topnav">
+    <a href="#home"></a>
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="thegym.html">The Gym</a>
+      <a href="contactus.html">Contact Us</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+  <!-- End smartphone / tablet look -->
+  
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+
+ <!-- MOBILE (BURGER) MENU END -->  
+ 
+ 
         </div> <!-- END CONTAINER -->
 
 

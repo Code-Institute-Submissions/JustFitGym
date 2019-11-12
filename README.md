@@ -5,9 +5,10 @@
 
 
 
+
 External Technologies Used:
 
-- Editor: Virtual Studio Code for iMac
+- Editor: Virtual Studio Code for iMac on local machine (agreed with Tutor)
 
 - Adobe Illustrator: I recreated the Logo since the original has a bad quality: (original is here: http://justfitireland.com/wp-content/uploads/2018/02/JustFit-1.png)
 
@@ -19,6 +20,11 @@ External Technologies Used:
 
 - External resources:
     1. https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+
+- Burger Menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+
+
 
 
 
